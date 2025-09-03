@@ -38,4 +38,3 @@ async def run_agent(data: UserMessage):
     print("Runner result:", result, type(result))
     return {"response": str(result.final_output)}
 
-handler = app
